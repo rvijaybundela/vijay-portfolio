@@ -1,2 +1,2 @@
 # vijay-portfolio
-Data Analyst &amp; ML Engineer Portfolio - Flask web app
+Agentic AI & ML Engineer Portfolio - Flask web app
