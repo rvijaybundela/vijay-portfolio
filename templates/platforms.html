@@ -1,0 +1,11 @@
+<section class="py-16 max-w-5xl mx-auto">
+  <h2 class="text-3xl font-bold text-center text-pink-300 mb-8">Platforms</h2>
+  <div class="grid md:grid-cols-3 gap-6">
+    {% for platform in user.platforms %}
+    <div class="bg-slate-800 p-6 rounded-lg border border-slate-700 card flex flex-col items-center hover:scale-105 transition">
+      <i class="fas fa-laptop-code text-3xl text-cyan-300 mb-3"></i>
+      <span class="text-white font-semibold">{{ platform }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</section>

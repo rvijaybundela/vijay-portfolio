@@ -1,0 +1,12 @@
+<section class="py-20 text-center">
+  <h1 class="text-6xl font-bold mb-2">{{ user.name }}</h1>
+  <h2 class="text-xl text-pink-400 mb-4">{{ user.subtitle }}</h2>
+  <p class="text-lg text-slate-300 mb-6">{{ user.tagline }}</p>
+  <div class="flex justify-center gap-6">
+    {% for link in user.links %}
+    <a href="{{ link.url }}" target="_blank" class="text-3xl text-slate-400 hover:text-cyan-300 transition">
+      <i class="{{ link.icon }}"></i>
+    </a>
+    {% endfor %}
+  </div>
+</section>
